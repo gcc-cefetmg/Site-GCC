@@ -10828,12 +10828,12 @@ p {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
-
+/*
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
   }
-}
+}*/
 .btn-xl {
   padding: 1.25rem 2.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11313,7 +11313,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 /*Fim Style footer*/
 
 /*Begin Style quemSomos- History*/
-
 .timeline_area {
   position: relative;
   z-index: 1;
@@ -11431,5 +11430,23 @@ section#contact form#contactForm :-ms-input-placeholder {
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
   color: #3f43fd;
 }
-
 /*End Style quemSomos- History*/
+
+/*Begin Style sections*/
+.section-modified{
+  padding-bottom: 2rem;
+}
+
+.section-modified h2.section-heading, .section-modified .section-heading.h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.section-modified h3.section-subheading, .section-modified .section-subheading.h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
+}
+/*End Style sections*/
