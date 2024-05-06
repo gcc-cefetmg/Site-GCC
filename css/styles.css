@@ -914,6 +914,16 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
+.g-10,
+.gx-10 {
+  --bs-gutter-x: 9rem;
+}
+
+.g-10,
+.gy-10 {
+  --bs-gutter-y: 9rem;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
@@ -8054,27 +8064,27 @@ fieldset:disabled .btn {
   padding-left: 3rem !important;
 }
 
-.py-0 {
+.gx-100 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 
-.py-1 {
+.gx-101 {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
 }
 
-.py-2 {
+.gx-102 {
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
 }
 
-.py-3 {
+.gx-103 {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
 
-.py-4 {
+.gx-104 {
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
 }
